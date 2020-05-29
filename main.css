@@ -1,0 +1,85 @@
+
+.bg-hero{
+  background: no-repeat url(ressources/image-header-min.png);
+  height: 800px;
+}
+
+.background-bloc{
+}
+
+#navbar-header{
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  background-color: rgba(69, 80, 87, 0.5);
+}
+
+.bg-dark{
+  opacity: 0.5;
+}
+
+#text-overlay{
+
+}
+
+.highlight-text{
+  background-color: rgba(70, 81, 88);
+}
+
+.container-services{
+  height: 400px;
+  background-color: #4bcaff;
+}
+
+.card{
+  background-color: transparent;
+}
+
+.container-pf{
+  height: 850px;
+}
+
+.container-section{
+  position: relative;
+  background-color: #515f67;
+  height: 480px;
+}
+
+.jumbo-section{
+  background: transparent;
+}
+
+.container-twitter{
+  height: 300px;
+  background-color: #4bcaff;
+}
+
+.jumbo-twitter{
+  background-color: transparent;
+}
+
+.container-who{
+  height: 505px;
+  background-image: url(ressources/image-about-min.png);
+}
+
+.jumbo-who{
+  background-color: transparent;
+}
+
+
+/*
+.image-hero{
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  opacity: 0.3;
+  z-index: 1;
+}
+.highlight-text{
+  background-color: rgba(70, 81, 88);
+}
+
+.container-services{
+  background-color: #4bcaff;
+}
