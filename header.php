@@ -11,33 +11,25 @@
 
 <header>
 
-<div class="background-bloc" style="height:150px">
-
-</div>
-
-<div class="container-fluid" id="navbar-header">
-  <div class="row" style="height: 150px">
-    <div class="col text-center my-auto">
-      BLUEASY
-    </div>
-    <div class="col-6 text-center my-auto">
-                <nav class="navbar navbar-expand-lg navbar-dark contenu-nav">
-                  <button class="btn btn-outline-info my-2 my-sm-0" type="submit">HOME</button>
-                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                      <a class="nav-item nav-link" href="#">SERVICES</a>
-                      <a class="nav-item nav-link" href="#">FEATURES</a>
-                      <a class="nav-item nav-link" href="#">PORTFOLIO</a>
-                      <a class="nav-item nav-link" href="#">CONTACT</a>
-                    </div>
-                  </div>
-        </nav>
-    </div>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+  <a class="navbar-brand font-weight-bold d-flex align-items-center text-uppercase" href="#">Blu<span class="blue">e</span>asy</a>
+  <div class="d-flex justify-content-around">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+  <div class="navbar-nav font-weight-bold">
+  <button type="button" class="btn btn-outline-primary">Home</button></a>
+  <a class="px-4 nav-item nav-link text-white text-uppercase" href="#services">Services</a>
+  <a class="px-4 nav-item nav-link text-white text-uppercase" href="#features">Features</a>
+  <a class="px-4 nav-item nav-link text-white text-uppercase" href="#portfolio">Portfolio</a>
+  <a class="px-4 nav-item nav-link text-white text-uppercase" href="#contact">Contact</a>
   </div>
-</div>
+  </div>
+  </div>
+  </div>
+  </nav>
 
 
 </header>
