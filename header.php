@@ -13,7 +13,20 @@
 
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
-      <a class="navbar-brand font-weight-bold d-flex align-items-center text-uppercase display-4" href="#">Blu<span class="title-blue">e</span>asy</a>
+
+
+
+      <div id="container">
+    <p class="added_to_cart wc-forward under font-weight-bold" title="View Cart">BLU<span class="logo-e font-weight-bold">E</span>ASY</p>
+    <div class="mask">
+      <div id="inner">
+        <p class="added_to_cart wc-forward font-weight-bold" title="View Cart">BLUEASY</p>
+      </div>
+    </div>
+  </div>
+
+
+
       <div class="d-flex justify-content-around">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>

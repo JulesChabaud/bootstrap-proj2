@@ -2,11 +2,11 @@
 
 <div class="bg-hero">
   <div class="d-flex align-items-center flex-column justify-content-center text-white h-100" id="text-overlay">
-    <h1 class="display-4 highlight-text">"I'M LOOKING FOR THE UNEXPECTED.</h1>
+    <h1 class="display-4 highlight-text font-weight-light">"I'M LOOKING FOR THE UNEXPECTED.</h1>
 
     <div class="w-100"></div>
 
-    <h1 class="display-4 highlight-text">I'M LOOKING FOR THINGS I'VE NEVER SEEN BEFORE."</h1>
+    <h1 class="display-4 highlight-text font-weight-light">I'M LOOKING FOR THINGS I'VE NEVER SEEN BEFORE."</h1>
   </div>
 </div>
 
@@ -65,7 +65,7 @@
 </div>
 
 <div id="portfolio">
-  <div class="container d-flex justify-content-center h-100 flex-column text-secondary">
+  <div class="container mt-4 mb-4 d-flex justify-content-center h-100 flex-column text-secondary">
     <div class="row">
 
       <div class="col-lg-2 pt-2">
@@ -269,7 +269,9 @@
   <div class="row">
 
   <div class="col-lg-12">
-  <h2 class="text-uppercase font-weight-light">CONTACT</h2>
+  <h3 class="text-uppercase text-light font-weight-light">CONTACT</h3>
+    <hr class="bg-white d-inline-block text-left mt-0 ">
+
   </div>
 
 
