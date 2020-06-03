@@ -95,56 +95,56 @@
 
       <div class="col-md-3 mb-4 portfolio-hover">
         <img src="ressources/pf/portfolio1.jpg" alt="pf1" class="img-fluid">
-        <div class="overlay bg-dark-opacity justify-content-center align-items-center d-flex">
+        <div class="overlay bg-dark justify-content-center align-items-center d-flex">
           <a href="#" class="text-white">+</a>
         </div>
       </div>
 
       <div class="col-md-3 mb-4 portfolio-hover">
           <img src="ressources/pf/portfolio2.jpg" alt="pf2" class="img-fluid">
-          <div class="overlay bg-dark-opacity justify-content-center align-items-center d-flex">
+          <div class="overlay bg-dark justify-content-center align-items-center d-flex">
             <a href="#" class="text-white">+</a>
           </div>
       </div>
 
       <div class="col-md-3 mb-4 portfolio-hover">
           <img src="ressources/pf/portfolio3.jpg" alt="pf3" class="img-fluid">
-          <div class="overlay bg-dark-opacity justify-content-center align-items-center d-flex">
+          <div class="overlay bg-dark justify-content-center align-items-center d-flex">
             <a href="#" class="text-white">+</a>
           </div>
       </div>
 
       <div class="col-md-3 mb-4 portfolio-hover">
           <img src="ressources/pf/portfolio4.jpg" alt="pf4" class="img-fluid">
-          <div class="overlay bg-dark-opacity justify-content-center align-items-center d-flex">
+          <div class="overlay bg-dark justify-content-center align-items-center d-flex">
             <a href="#" class="text-white">+</a>
           </div>
       </div>
 
       <div class="col-md-3 mb-4 portfolio-hover">
           <img src="ressources/pf/portfolio5.jpg" alt="pf5" class="img-fluid">
-          <div class="overlay bg-dark-opacity justify-content-center align-items-center d-flex">
+          <div class="overlay bg-dark justify-content-center align-items-center d-flex">
             <a href="#" class="text-white">+</a>
           </div>
       </div>
 
       <div class="col-md-3 mb-4 portfolio-hover">
           <img src="ressources/pf/portfolio6.jpg" alt="pf6" class="img-fluid">
-          <div class="overlay bg-dark-opacity justify-content-center align-items-center d-flex">
+          <div class="overlay bg-dark justify-content-center align-items-center d-flex">
             <a href="#" class="text-white">+</a>
           </div>
       </div>
 
       <div class="col-md-3 mb-4 portfolio-hover">
           <img src="ressources/pf/portfolio7.jpg" alt="pf7" class="img-fluid">
-          <div class="overlay bg-dark-opacity justify-content-center align-items-center d-flex">
+          <div class="overlay bg-dark justify-content-center align-items-center d-flex">
             <a href="#" class="text-white">+</a>
           </div>
       </div>
 
       <div class="col-md-3 mb-4 portfolio-hover">
           <img src="ressources/pf/portfolio8.jpg" alt="pf8" class="img-fluid">
-          <div class="overlay bg-dark-opacity justify-content-center align-items-center d-flex">
+          <div class="overlay bg-dark justify-content-center align-items-center d-flex">
             <a href="#" class="text-white">+</a>
           </div>
       </div>
@@ -195,7 +195,7 @@
 
       <div class="col-lg-11 mt-2">
         <h4 class="font-weight-light text-light">Unerdwear cookie liquorice. Cake donut cupcake lollipop soufflé candy.
-          Chocolate oat cake <a href="#" class="font-weight-bold text-white">@cheesecake</a> tootsie roll.</h4>
+          Chocolate oat cake <span class="font-weight-bold text-white">@cheesecake</span> tootsie roll.</h4>
       </div>
 
     </div>

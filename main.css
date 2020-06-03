@@ -111,23 +111,11 @@ p.added_to_cart.wc-forward.under, .logo-e{
 
 /*----------Hover-Portfolio----------*/
 .img-fluid{opacity: 1; display: block; width: 100%; height: auto; transition: .5s ease; backface-visibility: hidden;}
-.overlay {position: absolute; top: 0; bottom: 0; left: 1rem; right: 0; height: 100%; width: 90%; opacity: 0; transition: .8s ease;}
-.portfolio-hover:hover .overlay {opacity: 1;}
+.overlay {position: absolute; top: 0; bottom: 0; left: 1rem; right: 0; height: 100%; width: 90%; opacity: 0; transition: .8s ease; color: #353f47;}
+.portfolio-hover:hover .overlay {opacity: 0.8;}
 .portfolio-hover a {font-size: 3.5rem; font-weight: 300;}
 .portfolio-hover a:hover {text-decoration: none;}
 /*----------Hover-Portfolio----------*/
-
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 1rem;
-  right: 0;
-  height: 100%;
-  width: 90%;
-  opacity: 0;
-  transition: .5s ease;
-}
 
 .container-section{position: relative; background-color: #515f67; height: 480px;}
 
@@ -149,6 +137,6 @@ p.added_to_cart.wc-forward.under, .logo-e{
 
 #container-contact{height: 810px; background: url("ressources/background-contact.jpg") no-repeat; background-position: center top;}
 
-.container-footer{height: 170px;}
+.container-footer{height: 150px;}
 
 .nav-footer:after {content:"|"; margin-left: 15px;}
