@@ -13,180 +13,60 @@ font-weight: normal;
 src: url('ressources/fonts/SegoeUIBold.woff') format('woff');
 }
 
-h2{
-  position: relative;
-}
+/*----------Underline----------*/
+h2{position: relative;}
+h2::after{content:""; width: 50px; height: 5px; border-bottom: 2px solid white; position:absolute; left: 0; bottom: -2px;}
+hr{width: 3rem;}
+/*----------Underline----------*/
 
-h2::after{
-  content:"";
-  width: 50px;
-  height: 5px;
-  border-bottom: 2px solid white;
-  position:absolute;
-  left: 0;
-  bottom: -2px;
-}
+.navbar{opacity: 0.8;height: 100px;}
 
-hr{
-  width: 3rem;
-}
+.title-blue{color: #4bcaff;}
 
-.navbar{
-opacity: 0.8;
-height: 100px;
-}
+.active{border: 2px solid var(--bleu);}
 
-.active{
-border: 2px solid var(--bleu);}
+.bg-hero{background: no-repeat url(ressources/image-header-min.png);height: 800px;}
 
+#navbar-header{top: 0px; left: 0px; position: absolute; background-color: rgba(69, 80, 87, 0.5) !important;}
 
-.typo-segoe{
-  font-family: 'SegoeUIBold';
-}
+.bg-dark{opacity: 0.9;}
 
-.bg-hero{
-  background: no-repeat url(ressources/image-header-min.png);
-  height: 800px;
-}
+.highlight-text{background-color: rgba(70, 81, 88);}
 
-.background-bloc{
-}
+#container-services{height: 400px; background-color: #4bcaff;}
 
-#navbar-header{
-  top: 0px;
-  left: 0px;
-  position: absolute;
-  background-color: rgba(69, 80, 87, 0.5) !important;
-}
+.title-services{margin-left: 140px; margin-top: 30px;}
 
-.bg-dark{
-  opacity: 0.5;
-}
+.icon-services{width: 34px; height: auto; margin-left: 20px;}
 
-.highlight-text{
-  background-color: rgba(70, 81, 88);
-}
+.card{background-color: transparent;}
 
-.container-services{
-  height: 400px;
-  background-color: #4bcaff;
-}
+/*----------Hover----------*/
+.img-fluid{opacity: 1; display: block; width: 100%; height: auto; transition: .5s ease; backface-visibility: hidden;}
+.overlay {position: absolute; top: 0; bottom: 0; left: 1rem; right: 0; height: 100%; width: 90%; opacity: 0; transition: .8s ease;}
+.portfolio-hover:hover .overlay {opacity: 1;}
+.portfolio-hover a {font-size: 3.5rem; font-weight: 300;}
+.portfolio-hover a:hover {text-decoration: none;}
+/*----------Hover----------*/
 
-.title-services{
-  margin-left: 140px;
-  margin-top: 30px;
-}
+.container-section{position: relative; background-color: #515f67; height: 480px;}
 
-.icon-services{
-  width: 34px;
-  height: auto;
-  margin-left: 20px;
-}
+.video-dams{margin-top: 80px;}
 
-.card{
-  background-color: transparent;
-}
+.title-dsection{font-size: 2em; font-weight: lighter;}
 
-.container-pf{
-  height: 850px;
-}
+.text-dsection{font-size: 1em; font-weight: lighter;}
 
+.container-twitter{height: 300px; background-color: #4bcaff;}
 
+.jumbo-twitter{background-color: transparent;}
 
-.nav-pf{
-  margin-left: 20px;
-}
+.container-who{height: 505px; background-image: url(ressources/image-about-min.png); background-position: center;}
 
-.container-img-pf{
-  position: absolute;
-  margin-left: 90px;
-}
+.icon-who{height: 50px; width: 50px;}
 
-.img-fluid{
-  opacity: 1;
-  display: block;
-  width: 100%;
-  height: auto;
-  transition: .5s ease;
-  backface-visibility: hidden;
-}
+.container-testi{height: 350px;}
 
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 1rem;
-  right: 0;
-  height: 100%;
-  width: 90%;
-  opacity: 0;
-  transition: .8s ease;
-}
-.galery:hover .overlay {
-  opacity: 1;
-}
-.galery a {
-  font-size: 3.5rem;
-  font-weight: 300;
-}
-.galery a:hover {
-  text-decoration: none;
-}
+#container-contact{height: 810px; background: url("ressources/background-contact.jpg") no-repeat; background-position: center top;}
 
-
-.img-row-2{
-  margin-top: 20px;
-}
-
-.container-section{
-  position: relative;
-  background-color: #515f67;
-  height: 480px;
-}
-
-.video-default{
-  margin-top: 80px;
-}
-
-.title-dsection{
-  font-size: 2em;
-  font-weight: lighter;
-}
-
-.text-dsection{
-  font-size: 1em;
-  font-weight: lighter;
-}
-
-.container-twitter{
-  height: 300px;
-  background-color: #4bcaff;
-}
-
-.jumbo-twitter{
-  background-color: transparent;
-}
-
-.container-who{
-  height: 505px;
-  background-image: url(ressources/image-about-min.png);
-  background-position: center;
-}
-
-.jumbo-who{
-  background-color: transparent;
-}
-
-.container-testi{
-  height: 350px;
-}
-
-.sig-testi{
-  color: #4bcaff;
-}
-
-.container-contact{
-  height: 810px;
-  background: url("ressources/background-contact.jpg") no-repeat;
-  background-position: center top;
-}
+.container-footer{height: 170px;}
